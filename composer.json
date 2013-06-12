@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "mesd/orchestra",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "Orchestra Application Framework",
     "autoload": {
         "psr-0": { "": "src/" }
     },

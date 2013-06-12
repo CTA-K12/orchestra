@@ -1,0 +1,4 @@
+mesd_example_organizer:
+    resource: "@MESDExampleOrganizerBundle/Resources/config/routing.yml"
+    prefix:   /
+
