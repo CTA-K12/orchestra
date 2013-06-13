@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a7f9fe600eede3a6f50b419790739673",
+    "hash": "e50791a872d9f73b495c31746d9bf788",
     "packages": [
         {
             "name": "behat/behat",
@@ -302,7 +302,7 @@
         },
         {
             "name": "behat/symfony2-extension",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Symfony2Extension.git",
@@ -1747,7 +1747,6 @@
     "stability-flags": {
         "behat/behat": 0,
         "behat/mink": 0,
-        "behat/symfony2-extension": 20,
         "vipsoft/doctrine-data-fixtures-extension": 20,
         "doctrine/data-fixtures": 20,
         "doctrine/doctrine-fixtures-bundle": 20
