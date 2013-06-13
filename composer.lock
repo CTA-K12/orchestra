@@ -1005,12 +1005,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MESD/PresentationBundle.git",
-                "reference": "2be9af4e91846522c778e40a7fa83b8db5195deb"
+                "reference": "922fec39b848ae7a096cd8ce9f7e9ace81977bfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MESD/PresentationBundle/zipball/2be9af4e91846522c778e40a7fa83b8db5195deb",
-                "reference": "2be9af4e91846522c778e40a7fa83b8db5195deb",
+                "url": "https://api.github.com/repos/MESD/PresentationBundle/zipball/922fec39b848ae7a096cd8ce9f7e9ace81977bfe",
+                "reference": "922fec39b848ae7a096cd8ce9f7e9ace81977bfe",
                 "shasum": ""
             },
             "require": {
@@ -1045,7 +1045,7 @@
                 "source": "https://github.com/MESD/PresentationBundle/tree/master",
                 "issues": "https://github.com/MESD/PresentationBundle/issues"
             },
-            "time": "2013-06-13 22:17:24"
+            "time": "2013-06-13 23:48:26"
         },
         {
             "name": "monolog/monolog",

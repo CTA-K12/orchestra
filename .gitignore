@@ -6,5 +6,6 @@
 /bin/
 /composer.phar
 /vendor/
+/version.txt
 /web/bundles/
 /web/css/
