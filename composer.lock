@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "326a2d844524c85e8dcc042235c04a27",
+    "hash": "5ce34ceb9f3a86c3572640a6b1168024",
     "packages": [
         {
             "name": "behat/behat",
@@ -999,6 +999,55 @@
             "time": "2013-06-13 20:45:10"
         },
         {
+            "name": "mesd/presentation-presentation-bundle",
+            "version": "dev-master",
+            "target-dir": "MESD/Presentation/PresentationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MESD/PresentationBundle.git",
+                "reference": "2be9af4e91846522c778e40a7fa83b8db5195deb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MESD/PresentationBundle/zipball/2be9af4e91846522c778e40a7fa83b8db5195deb",
+                "reference": "2be9af4e91846522c778e40a7fa83b8db5195deb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "symfony/framework-bundle": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MESD\\Presentation\\PresentationBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Curtis G Hanson",
+                    "email": "chanson@mesd.k12.or.us"
+                }
+            ],
+            "description": "MESD Presentation Bundle for Symfony2",
+            "homepage": "http://github.com/MESD/PresentationBundle",
+            "keywords": [
+                "bundle",
+                "mesd",
+                "presentation"
+            ],
+            "support": {
+                "source": "https://github.com/MESD/PresentationBundle/tree/master",
+                "issues": "https://github.com/MESD/PresentationBundle/issues"
+            },
+            "time": "2013-06-13 22:17:24"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.5.0",
             "source": {
@@ -1781,7 +1830,8 @@
         "vipsoft/doctrine-data-fixtures-extension": 20,
         "doctrine/data-fixtures": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
-        "mesd/feature-context-bundle": 20
+        "mesd/feature-context-bundle": 20,
+        "mesd/presentation-presentation-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"

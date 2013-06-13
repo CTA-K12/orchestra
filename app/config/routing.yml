@@ -2,3 +2,7 @@ mesd_example_organizer:
     resource: "@MESDExampleOrganizerBundle/Resources/config/routing.yml"
     prefix:   /
 
+mesd_presentation_presentation:
+    resource: "@MESDPresentationPresentationBundle/Resources/config/routing.yml"
+    prefix:   /
+

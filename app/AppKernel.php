@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new MESD\Example\OrganizerBundle\MESDExampleOrganizerBundle(),
             new MESD\Behat\MinkBundle\MESDBehatMinkBundle(),
+            new MESD\Presentation\PresentationBundle\MESDPresentationPresentationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

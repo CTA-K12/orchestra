@@ -14,6 +14,10 @@
         {
             "type" : "vcs",
             "url" : "https://github.com/MESD/FeatureContextBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/PresentationBundle.git"
         }
     ],
     "require": {
@@ -36,7 +40,8 @@
         "vipsoft/doctrine-data-fixtures-extension": "dev-require_php_533",
         "doctrine/data-fixtures": "1.0.*@dev",
         "doctrine/doctrine-fixtures-bundle": "2.1.*@dev",
-        "mesd/feature-context-bundle": "dev-master"
+        "mesd/feature-context-bundle": "dev-master",
+        "mesd/presentation-presentation-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

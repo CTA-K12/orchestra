@@ -1,9 +1,9 @@
 parameters:
-    database_driver:   pdo_mysql
+    database_driver:   pdo_pgsql
     database_host:     127.0.0.1
     database_port:     ~
     database_name:     symfony
-    database_user:     root
+    database_user:     postgres
     database_password: ~
 
     mailer_transport:  smtp
@@ -13,3 +13,8 @@ parameters:
 
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    # For NodeJS directories for LESS
+    node_base_path:         /usr/bin/node
+    node_lib_path:          /usr/include/node
+    node_modules_path:      /lib/node_modules
