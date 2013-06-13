@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e50791a872d9f73b495c31746d9bf788",
+    "hash": "326a2d844524c85e8dcc042235c04a27",
     "packages": [
         {
             "name": "behat/behat",
@@ -968,6 +968,37 @@
             "time": "2013-06-01 22:13:43"
         },
         {
+            "name": "mesd/feature-context-bundle",
+            "version": "dev-master",
+            "target-dir": "MESD/Behat/MinkBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:MESD/FeatureContextBundle.git",
+                "reference": "d949690fb441d740b65e17a998fd0632ba9f8ac9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MESD/FeatureContextBundle/zipball/d949690fb441d740b65e17a998fd0632ba9f8ac9",
+                "reference": "d949690fb441d740b65e17a998fd0632ba9f8ac9",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "MESD\\Behat\\MinkBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Feature Context bundle",
+            "support": {
+                "source": "https://github.com/MESD/FeatureContextBundle/tree/master",
+                "issues": "https://github.com/MESD/FeatureContextBundle/issues"
+            },
+            "time": "2013-06-13 20:45:10"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.5.0",
             "source": {
@@ -1749,7 +1780,8 @@
         "behat/mink": 0,
         "vipsoft/doctrine-data-fixtures-extension": 20,
         "doctrine/data-fixtures": 20,
-        "doctrine/doctrine-fixtures-bundle": 20
+        "doctrine/doctrine-fixtures-bundle": 20,
+        "mesd/feature-context-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"

@@ -1,4 +1,6 @@
 default:
+    context:
+        class: MESD\Behat\MinkBundle\Features\Context\FeatureContext
     extensions:
         Behat\Symfony2Extension\Extension: ~
         Behat\MinkExtension\Extension:
