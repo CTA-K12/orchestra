@@ -973,7 +973,7 @@
             "target-dir": "MESD/Behat/MinkBundle",
             "source": {
                 "type": "git",
-                "url": "git@github.com:MESD/FeatureContextBundle.git",
+                "url": "https://github.com/MESD/FeatureContextBundle.git",
                 "reference": "d949690fb441d740b65e17a998fd0632ba9f8ac9"
             },
             "dist": {
