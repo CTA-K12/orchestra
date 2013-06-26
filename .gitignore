@@ -1,7 +1,8 @@
 /app/bootstrap.php.cache
-/app/cache/*
 /app/config/parameters.yml
+/app/cache/*
 /app/logs/*
+/app/session/*
 /build/
 /bin/
 /composer.phar
@@ -9,3 +10,5 @@
 /version.txt
 /web/bundles/
 /web/css/
+*.php~
+*.swp
