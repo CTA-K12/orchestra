@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5ce34ceb9f3a86c3572640a6b1168024",
+    "hash": "07e3d13547a49271e395b33b824e86f4",
     "packages": [
         {
             "name": "behat/behat",
@@ -620,12 +620,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "5696cd636df7cbfaf4d1c45ed2922438968cf890"
+                "reference": "512fc0fa1d0ce7bdcc6a0a91812eb531f20e0828"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/5696cd636df7cbfaf4d1c45ed2922438968cf890",
-                "reference": "5696cd636df7cbfaf4d1c45ed2922438968cf890",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/512fc0fa1d0ce7bdcc6a0a91812eb531f20e0828",
+                "reference": "512fc0fa1d0ce7bdcc6a0a91812eb531f20e0828",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2013-04-27 11:57:35"
+            "time": "2013-06-21 10:31:45"
         },
         {
             "name": "doctrine/orm",
@@ -969,17 +969,17 @@
         },
         {
             "name": "mesd/feature-context-bundle",
-            "version": "dev-master",
+            "version": "v2.3.1.1",
             "target-dir": "MESD/Behat/MinkBundle",
             "source": {
                 "type": "git",
-                "url": "git@github.com:MESD/FeatureContextBundle.git",
-                "reference": "d949690fb441d740b65e17a998fd0632ba9f8ac9"
+                "url": "https://github.com/MESD/FeatureContextBundle.git",
+                "reference": "v2.3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MESD/FeatureContextBundle/zipball/d949690fb441d740b65e17a998fd0632ba9f8ac9",
-                "reference": "d949690fb441d740b65e17a998fd0632ba9f8ac9",
+                "url": "https://api.github.com/repos/MESD/FeatureContextBundle/zipball/v2.3.1.1",
+                "reference": "v2.3.1.1",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -996,7 +996,7 @@
                 "source": "https://github.com/MESD/FeatureContextBundle/tree/master",
                 "issues": "https://github.com/MESD/FeatureContextBundle/issues"
             },
-            "time": "2013-06-13 20:45:10"
+            "time": "2013-06-24 16:31:25"
         },
         {
             "name": "mesd/presentation-presentation-bundle",
@@ -1005,12 +1005,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MESD/PresentationBundle.git",
-                "reference": "922fec39b848ae7a096cd8ce9f7e9ace81977bfe"
+                "reference": "38fd118c14d02634fe2bdd478d64ce668c892296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MESD/PresentationBundle/zipball/922fec39b848ae7a096cd8ce9f7e9ace81977bfe",
-                "reference": "922fec39b848ae7a096cd8ce9f7e9ace81977bfe",
+                "url": "https://api.github.com/repos/MESD/PresentationBundle/zipball/38fd118c14d02634fe2bdd478d64ce668c892296",
+                "reference": "38fd118c14d02634fe2bdd478d64ce668c892296",
                 "shasum": ""
             },
             "require": {
@@ -1019,7 +1019,7 @@
             "require-dev": {
                 "symfony/framework-bundle": "~2.3"
             },
-            "type": "library",
+            "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
                     "MESD\\Presentation\\PresentationBundle": ""
@@ -1045,7 +1045,7 @@
                 "source": "https://github.com/MESD/PresentationBundle/tree/master",
                 "issues": "https://github.com/MESD/PresentationBundle/issues"
             },
-            "time": "2013-06-13 23:48:26"
+            "time": "2013-06-24 22:07:01"
         },
         {
             "name": "monolog/monolog",
@@ -1830,7 +1830,6 @@
         "vipsoft/doctrine-data-fixtures-extension": 20,
         "doctrine/data-fixtures": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
-        "mesd/feature-context-bundle": 20,
         "mesd/presentation-presentation-bundle": 20
     },
     "platform": {
