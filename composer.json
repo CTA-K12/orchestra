@@ -8,8 +8,52 @@
     },
     "repositories": [
         {
+            "type": "package",
+            "package": {
+                "name": "robinherbots/jquery.inputmask",
+                "version": "dev",
+                "source": {
+                    "url": "https://github.com/MESD/jquery.inputmask.git",
+                    "type": "git",
+                    "reference": "dev"
+                }
+            }
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/doctrine2.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/AngGridBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/ConsoleGeneratorBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/CrudHistoryBundle.git"
+        },
+        {
             "type" : "vcs",
             "url" : "https://github.com/MESD/DoctrineDataFixturesExtension.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/DoctrineExtensionsDependentFixtureBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/DoctrineExtensionsIlikeBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/DoctrineExtensionsDateFunctionsBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/DoctrineExtensionsTablePrefixerBundle.git"
         },
         {
             "type" : "vcs",
@@ -17,31 +61,66 @@
         },
         {
             "type" : "vcs",
+            "url" : "https://github.com/MESD/FileDocumentBundle.git"
+        },
+        {
+            "type" : "vcs",
             "url" : "https://github.com/MESD/PresentationBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/PresentationCalendarBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/SecurityAuthenticationBundle.git"
+        },
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/MESD/StandardUnitBundle.git"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": "2.3.*",
-        "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": "1.2.*",
-        "twig/extensions": "1.0.*",
-        "symfony/assetic-bundle": "2.3.*",
-        "symfony/swiftmailer-bundle": "2.3.*",
-        "symfony/monolog-bundle": "2.3.*",
-        "sensio/distribution-bundle": "2.3.*",
-        "sensio/framework-extra-bundle": "2.3.*",
-        "sensio/generator-bundle": "2.3.*",
-        "incenteev/composer-parameter-handler": "~2.0",
         "behat/behat": "2.4.*@stable",
         "behat/mink": "1.4.*@stable",
         "behat/mink-extension": "*",
         "behat/mink-selenium2-driver": "*",
-        "vipsoft/doctrine-data-fixtures-extension": "dev-require_php_533",
         "doctrine/data-fixtures": "1.0.*@dev",
-        "doctrine/doctrine-fixtures-bundle": "2.1.*@dev",
-        "mesd/feature-context-bundle": "2.3.*",
-        "mesd/presentation-presentation-bundle": "dev-master"
+        "doctrine/doctrine-bundle": "1.2.*",
+        "doctrine/doctrine-fixtures-bundle": "2.1.*",
+        "doctrine/doctrine-migrations-bundle": "dev-master",
+        "doctrine/orm": "dev-ilike",
+        "jms/security-extra-bundle": "1.5.*",
+        "jms/di-extra-bundle": "1.4.*",
+        "knplabs/knp-paginator-bundle": "dev-master",
+        "mesd/ang-grid-bundle": "dev-master",
+        "mesd/console-generator-bundle": "dev-master",
+        "mesd/crud-history-bundle": "dev-master",
+        "mesd/doctrine-extensions-dependent-fixture-bundle": "dev-master",
+        "mesd/doctrine-extensions-date-functions-bundle": "dev-master",
+        "mesd/doctrine-extensions-ilike-bundle": "dev-master",
+        "mesd/doctrine-extensions-table-prefixer-bundle": "dev-master",
+        "mesd/feature-context-bundle": "dev-master",
+        "mesd/file-document-bundle": "dev-master",
+        "mesd/presentation-presentation-bundle": "dev-master",
+        "mesd/presentation-calendar-bundle": "dev-master",
+        "mesd/security-authentication-bundle": "dev-master",
+        "mesd/standard-unit-bundle": "dev-master",
+        "php": ">=5.3.3",
+        "phpexcel/phpexcel": "dev-master",
+        "phpunit/phpunit": "3.7.*",
+        "sensio/distribution-bundle": "2.3.*",
+        "sensio/framework-extra-bundle": "2.3.*",
+        "sensio/generator-bundle": "2.3.*",
+        "symfony/assetic-bundle": "2.3.*",
+        "symfony/icu": "1.1.*",
+        "symfony/monolog-bundle": "2.3.*",
+        "symfony/swiftmailer-bundle": "2.3.*",
+        "symfony/symfony": "2.3.*",
+        "twig/extensions": "1.0.*",
+        "vipsoft/doctrine-data-fixtures-extension": "dev-require_php_533",
+        "RobinHerbots/jquery.inputmask": "dev",
+        "knplabs/knp-snappy-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
