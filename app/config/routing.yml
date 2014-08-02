@@ -5,4 +5,3 @@ mesd_example_organizer:
 mesd_presentation_presentation:
     resource: "@MESDPresentationPresentationBundle/Resources/config/routing.yml"
     prefix:   /
-
